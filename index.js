@@ -45,6 +45,30 @@ const run = async () => {
       res.send(result);
     });
 
+    app.patch("/product/:id", async (req, res) => {
+      const productId = req.params.id;
+      const updatedProduct = req.body;
+
+      try {
+        const db = client.db("booktown");
+        const productCollection = db.collection("product");
+
+        const result = await productCollection.updateOne(
+          { _id: ObjectId(productId) },
+          { $set: updatedProduct }
+        );
+
+        if (result.modifiedCount === 1) {
+          res.json({ message: "Product updated successfully" });
+        } else {
+          res.json({ error: "Product not found or not updated" });
+        }
+      } catch (error) {
+        console.error("Error updating product:", error);
+        res.status(500).json({ error: "Internal server error" });
+      }
+    });
+
     app.delete("/product/:id", async (req, res) => {
       const id = req.params.id;
 
@@ -110,6 +134,27 @@ const run = async () => {
       }
 
       res.send({ status: false });
+    });
+    app.get("/search", async (req, res) => {
+      const query = req.query.q;
+      console.log("Received query:", query);
+      if (!query || query.trim() === "") {
+        // If no valid query is provided, send an appropriate response
+        res.send({ status: false, message: "Invalid search query" });
+        return;
+      }
+
+      const cursor = productCollection.find({
+        $or: [
+          { title: { $regex: query, $options: "i" } },
+          { author: { $regex: query, $options: "i" } },
+          { genre: { $regex: query, $options: "i" } },
+        ],
+      });
+
+      const results = await cursor.toArray();
+
+      res.send({ status: true, data: results });
     });
   } finally {
   }

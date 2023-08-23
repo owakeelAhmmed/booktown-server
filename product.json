@@ -1,0 +1,182 @@
+[
+  {
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "genre": "Fiction",
+    "publication": "2020-08-13",
+    "price": 15.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMIrcGG9RuAMpxxP13Y1yXSIHEaWIGUnTaBA&usqp=CAU&reload=on",
+    "comment": []
+  },
+  {
+    "title": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "genre": "Mystery",
+    "publication": "2018-08-14",
+    "price": 12.49,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS06_hYtjSu8B6fid5CsC6OrxSqyHET1b-YXQ&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "genre": "Science Fiction",
+    "publication": "2021-05-04",
+    "price": 19.95,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiLBO7a0eNIzjVP9pB-U-UtVXdcTCghgoxlFmA-H9uoMUbr8AMLx7I_fV9grfIONkVkQU&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "The Four Winds",
+    "author": "Kristin Hannah",
+    "genre": "Historical Fiction",
+    "publication": "2021-02-02",
+    "price": 18.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUNFdGG-EoktbkXX2_w8fZGrNUFbB3SlIYEAT6L4ODbzfcoVuml7420hR_-HxgkydWPs&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "Klara and the Sun",
+    "author": "Kazuo Ishiguro",
+    "genre": "Science Fiction",
+    "publication": "2021-03-02",
+    "price": 16.5,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2du-UQcn5JX8wYY_escyg9ugsHWZQpidhGg&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "The Sanatorium",
+    "author": "Sarah Pearse",
+    "genre": "Thriller",
+    "publication": "2021-02-02",
+    "price": 14.95,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ7UoPqMd1X-eqHSAsGxBwUa8yb3mVLGuIMw&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "Anxious People",
+    "author": "Fredrik Backman",
+    "genre": "Fiction",
+    "publication": "2020-08-25",
+    "price": 13.75,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6bTPbYeBbAvokwAs8fEGY8fuFVvQ3uBeS_w&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "The Rose Code",
+    "author": "Kate Quinn",
+    "genre": "Historical Fiction",
+    "publication": "2021-03-09",
+    "price": 17.5,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMmakVYKtj-Ef82AVYGnXqnvqSSMkrQf_DiQYF2a51TAGOr_yZ8SKQ5xQ_I9fhapkoZNw&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "The Push",
+    "author": "Ashley Audrain",
+    "genre": "Psychological Thriller",
+    "publication": "2021-01-05",
+    "price": 15.25,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuX4WOLMJtz03Y4XJGMzvrV-ab6JVsfXMiILVaQ5mwfUXHcNR_ganjWtwBVGHj13vqe1M&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "The Guest List",
+    "author": "Lucy Foley",
+    "genre": "Mystery",
+    "publication": "2020-06-02",
+    "price": 11.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpvalf-2tgjy5VXnglCTpw9Z_Fjvaj2o2mJg&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "The Last House on Needless Street",
+    "author": "Catriona Ward",
+    "genre": "Mystery",
+    "publication": "2021-03-18",
+    "price": 14.75,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSuql2XgaM64UtPYadPcOQl6ax5VIp8M36sQ&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "Mexican Gothic",
+    "author": "Silvia Moreno-Garcia",
+    "genre": "Horror",
+    "publication": "2020-06-30",
+    "price": 12.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF8pKmxVQ0DRuVSNaGUuh0-sq-cnnDRJjNiw&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "The Invisible Life of Addie LaRue",
+    "author": "V.E. Schwab",
+    "genre": "Fantasy",
+    "publication": "2020-10-06",
+    "price": 16.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwGmCDULAw4peCWtuJB1sT0Ho4xb1tVQMkmw&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "Malibu Rising",
+    "author": "Taylor Jenkins Reid",
+    "genre": "Contemporary Fiction",
+    "publication": "2021-06-01",
+    "price": 14.25,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRujoeiNzao1R-t7aX17myfnuh-uvltuCdxZA&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "A Court of Silver Flames",
+    "author": "Sarah J. Maas",
+    "genre": "Fantasy",
+    "publication": "2021-02-16",
+    "price": 18.5,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ03Tj74PQuL6DBR1bRaVXRdVmWFWd8Zng1uofFTiNsQ7xF-Vmr7KQGzq7CDsWE64jXXL0&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "The Ex Talk",
+    "author": "Rachel Lynn Solomon",
+    "genre": "Romantic Comedy",
+    "publication": "2021-01-26",
+    "price": 13.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLXLt1hE6iYJQAeQefOcr18_SFnam2Aju1zw&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "The Push",
+    "author": "Ashley Audrain",
+    "genre": "Psychological Thriller",
+    "publication": "2021-01-05",
+    "price": 15.25,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK4qAovFHVTnxyTKlWRI0788n3XlFvedfdtA&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "The Vanishing Half",
+    "author": "Brit Bennett",
+    "genre": "Literary Fiction",
+    "publication": "2020-06-02",
+    "price": 11.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQihZH9iP5FrPwI1OE2SitEPjn6XFURvmuDww&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "The Ex Talk",
+    "author": "Rachel Lynn Solomon",
+    "genre": "Romantic Comedy",
+    "publication": "2021-01-26",
+    "price": 13.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmEZsVyU_8prTNbzYe8N2MmM2WzhvDyGUw7g&usqp=CAU",
+    "comment": []
+  },
+  {
+    "title": "The Push",
+    "author": "Ashley Audrain",
+    "genre": "Psychological Thriller",
+    "publication": "2021-01-05",
+    "price": 15.25,
+    "image": "https://images.wsj.net/im-173743/?width=700&height=1050",
+    "comment": []
+  }
+]
