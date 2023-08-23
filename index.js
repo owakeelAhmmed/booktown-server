@@ -41,7 +41,7 @@ const run = async () => {
       const id = req.params.id;
 
       const result = await productCollection.findOne({ _id: ObjectId(id) });
-      console.log(result);
+
       res.send(result);
     });
 
@@ -73,16 +73,13 @@ const run = async () => {
       const id = req.params.id;
 
       const result = await productCollection.deleteOne({ _id: ObjectId(id) });
-      console.log(result);
+
       res.send(result);
     });
 
     app.post("/comment/:id", async (req, res) => {
       const productId = req.params.id;
       const comment = req.body.comment;
-
-      console.log(productId);
-      console.log(comment);
 
       const result = await productCollection.updateOne(
         { _id: ObjectId(productId) },
@@ -97,7 +94,6 @@ const run = async () => {
         return;
       }
 
-      console.log("Comment added successfully");
       res.json({ message: "Comment added successfully" });
     });
 
